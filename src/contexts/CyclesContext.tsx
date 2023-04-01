@@ -1,5 +1,5 @@
 import { ReactNode, createContext, useState, useReducer, useEffect } from "react";
-import { ActionTypes, Cycle, cyclesReducer } from '../reducers/cycles/reducer'
+import { Cycle, cyclesReducer } from '../reducers/cycles/reducer'
 import { addNewCycleAction, interruptCurrentCycleAction, markCurrentCycleAsFinishedAction } from "../reducers/cycles/actions";
 import { differenceInSeconds } from "date-fns";
 
